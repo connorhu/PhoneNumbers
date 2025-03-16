@@ -1,2 +1,15 @@
 {
+  "require": {
+    "php": ">=8.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Connor\\PhoneNumbers\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Connor\\PhoneNumbers\\Tests": "tests/"
+    }
+  }
 }
